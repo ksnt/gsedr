@@ -23,5 +23,5 @@ install_github("https://github.com/ksnt/gsedr")
 ```
 
 ## Result
-![map](https://github.com/ksnt/gsedr/tree/master/img/map01.png)
+![map](wiki/img/map01.png)
 
