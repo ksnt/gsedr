@@ -21,3 +21,8 @@ install.packages("devtools")
 library(devtools)
 install_github("https://github.com/ksnt/gsedr")
 ```
+
+## How to use
+
+
+
