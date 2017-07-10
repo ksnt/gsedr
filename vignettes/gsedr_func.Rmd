@@ -16,9 +16,8 @@ This vignette shows how to use gsedr library. In this library, you can generate 
 
 ## How to install
 
-```{r setup, include=FALSE}
+```{r eval=FALSE}
 install.packages("devtools")
-library(devtools)
 devtools::install_github("ksnt/gsedr")
 ```
 
