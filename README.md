@@ -1,5 +1,8 @@
 ## Overview
 
+"GeoSpatial Earth Data analysis in R"(gsedr) library  
+
+
 author: ksnt  
 Dataset: https://www.ngdc.noaa.gov/nndc/struts/form?t=101650&s=1&d=1  
 
