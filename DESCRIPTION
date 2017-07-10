@@ -4,7 +4,7 @@ Title: Analyze Global Significant Earthquake Database in R
 Version: 0.1.0
 Author: Takayuki Kaisen
 Maintainer: Takayuki Kaisen <ksn0215@gmail.com>
-Description: This package is for analysis of Global Significant Earthquake Databas data.
+Description: This package is for analysis of Global Significant Earthquake Database data.
 License: MIT
 Encoding: UTF-8
 LazyData: true
