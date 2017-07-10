@@ -12,5 +12,5 @@ Suggests: knitr,
     rmarkdown,
     testthat
 VignetteBuilder: knitr
-Imports: dplyr, readr
+Imports: dplyr, readr, ggplot2, stringr, lubridate, grid, leaflet
 RoxygenNote: 6.0.1
