@@ -5,12 +5,10 @@ date: "2017年6月9日"
 output: html_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
 ## How to install
 
+```{r setup, include=FALSE}
 install.packages("devtools")
 library(devtools)
 install_github("https://github.com/ksnt/gsedr")
+```
