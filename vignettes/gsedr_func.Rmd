@@ -51,7 +51,7 @@ ddd %>% ggplot(aes(x=DATE,y=COUNTRY,size=as.numeric(EQ_PRIMARY),colour=as.numeri
 Use `eq_create_label` function and `eq_map` function.
 
 
-```{r "geom_timeline_label", eval=FALSE}
+```{r "eq_create_label", eval=FALSE}
 # Retrieve earthquake data in INDONESIA.
 # Create a map with data
 
