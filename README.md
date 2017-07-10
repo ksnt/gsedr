@@ -22,7 +22,6 @@ library(devtools)
 install_github("https://github.com/ksnt/gsedr")
 ```
 
-## How to use
-
-
+## Result
+![map](https://drive.google.com/open?id=0Bwpo8iEJDg72S3RVOHRvLWVFQmc)
 
