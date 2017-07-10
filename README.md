@@ -23,5 +23,5 @@ install_github("https://github.com/ksnt/gsedr")
 ```
 
 ## Result
-![map](wiki/img/map01.png "map")
-
+![timeline](https://user-images.githubusercontent.com/530390/28039084-00a1c21e-65fc-11e7-8b14-48d2a6e63498.png)
+![map01](https://user-images.githubusercontent.com/530390/28038958-a0521062-65fb-11e7-9074-a672a4400bf6.png)
