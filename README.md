@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/ksnt/gsedr.svg?branch=master)](https://travis-ci.org/ksnt/gsedr)
+
+
 ## Overview
 
 "GeoSpatial Earth Data analysis in R"(gsedr) library  
