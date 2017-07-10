@@ -8,6 +8,25 @@ geom_timeline_label(mapping = NULL, data = NULL, stat = "identity",
   position = "identity", ..., na.rm = FALSE, n_max = NULL,
   show.legend = NA, inherit.aes = TRUE)
 }
+\arguments{
+\item{mapping}{Mapping}
+
+\item{data}{Data}
+
+\item{stat}{Stat}
+
+\item{position}{position}
+
+\item{...}{nothing special}
+
+\item{na.rm}{Whether remove NA or not}
+
+\item{n_max}{Maximum number of labels}
+
+\item{show.legend}{Show legend}
+
+\item{inherit.aes}{Inherit aes}
+}
 \description{
 This is a simple geom function to display
 }

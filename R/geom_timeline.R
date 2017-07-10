@@ -5,6 +5,16 @@
 #' @importFrom ggplot2 layer ggproto aes ggproto ggplot draw_key_blank
 #' @importFrom dplyr group_by_ top_n ungroup
 #' @importFrom grid polylineGrob gpar textGrob gList
+#' 
+#' @param mapping Mapping 
+#' @param data Data
+#' @param stat Stat
+#' @param position position
+#' @param ... nothing special
+#' @param na.rm Whether remove NA or not
+#' @param n_max Maximum number of labels
+#' @param show.legend Show legend
+#' @param inherit.aes Inherit aes
 #'
 #' @examples
 #' library(ggplot2)
