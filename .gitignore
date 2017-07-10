@@ -2,3 +2,5 @@
 .Rhistory
 .RData
 .Ruserdata
+inst/doc
+/R/how_to_use_memo.md
