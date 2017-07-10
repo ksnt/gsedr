@@ -18,6 +18,7 @@ This is a simple funtion for mapping to create label
 \examples{
 library(ggplot2)
 library(leaflet)
+library(dplyr)
 
 datapath <- system.file("extdata", "earthquakes.txt", package = "gsedr")
 data <- readr::read_delim(datapath, delim = "\\t") \%>\% eq_clean_data()

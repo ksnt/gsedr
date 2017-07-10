@@ -13,6 +13,8 @@ This is a simple geom function to display
 }
 \examples{
 library(ggplot2)
+library(dplyr)
+library(grid)
 
 datapath <- system.file("extdata", "earthquakes.txt", package = "gsedr")
 data <- readr::read_delim(datapath, delim = "\\t") \%>\% eq_clean_data()
