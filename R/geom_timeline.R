@@ -8,6 +8,8 @@
 #'
 #' @examples
 #' library(ggplot2)
+#' library(dplyr)
+#' library(grid)
 #'
 #' datapath <- system.file("extdata", "earthquakes.txt", package = "gsedr")
 
@@ -96,6 +98,7 @@ geom_timeline_proto <-
 #' @examples
 #' library(ggplot2)
 #' library(leaflet)
+#' library(dplyr)
 #'
 #' datapath <- system.file("extdata", "earthquakes.txt", package = "gsedr")
 #' data <- readr::read_delim(datapath, delim = "\t") %>% eq_clean_data()
@@ -122,6 +125,7 @@ eq_map <- function(data, annot_col) {
 #' @examples
 #' library(ggplot2)
 #' library(leaflet)
+#' library(dplyr)
 #'
 #' datapath <- system.file("extdata", "earthquakes.txt", package = "gsedr")
 #' data <- readr::read_delim(datapath, delim = "\t") %>% eq_clean_data()
