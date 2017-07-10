@@ -19,7 +19,7 @@ This vignette shows how to use gsedr library. In this library, you can generate 
 ```{r setup, include=FALSE}
 install.packages("devtools")
 library(devtools)
-install_github("https://github.com/ksnt/gsedr")
+devtools::install_github("ksnt/gsedr")
 ```
 
 ## Retrieve and Tidy Data
