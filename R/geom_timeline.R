@@ -6,15 +6,15 @@
 #' @importFrom dplyr group_by_ top_n ungroup
 #' @importFrom grid polylineGrob gpar textGrob gList
 #' 
-#' @param mapping Mapping 
-#' @param data Data
-#' @param stat Stat
-#' @param position position
-#' @param ... nothing special
-#' @param na.rm Whether remove NA or not
+#' @param mapping Set of aesthetic mappings created by aes or aes_
+#' @param data The data to be displayed in this layer
+#' @param stat The statistical transformation to use on the data for this layer, as a string
+#' @param position Position
+#' @param ... Nothing special
+#' @param na.rm If FALSE, the default, missing values are removed with a warning. If TRUE, missing values are silently removed
 #' @param n_max Maximum number of labels
-#' @param show.legend Show legend
-#' @param inherit.aes Inherit aes
+#' @param show.legend Logical. Should this layer be included in the legends? NA, the default, includes if any aesthetics are mapped. FALSE never includes, and TRUE always includes.
+#' @param inherit.aes If FALSE, overrides the default aesthetics, rather than combining with them. This is most useful for helper functions that define both data and aesthetics and shouldn't inherit behaviour from the default plot specification, e.g. borders
 #'
 #' @examples
 #' library(ggplot2)
