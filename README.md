@@ -51,7 +51,8 @@ ddd %>% ggplot(aes(x=DATE,y=COUNTRY,size=as.numeric(EQ_PRIMARY),colour=as.numeri
 　　　　　　　　　geom_point(alpha=0.6) +
          　　　　geom_timeline_label(aes(label = LOCATION_NAME), n_max = 3) +
              　scale_colour_gradient(low="skyblue",high = "red") +
-              　annotate("text", label = "ship", parse=TRUE) + labs(size = "Richter scale value", color = "# deaths") +
+               annotate("text", label = "ship", parse=TRUE) +
+               labs(size = "Richter scale value", color = "# deaths") +
                theme_minimal()
 ```
 
